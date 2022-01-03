@@ -1,0 +1,203 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{airbnb}
+\citation{flurry}
+\citation{alibabahbase}
+\citation{dragon}
+\citation{zen}
+\citation{O'Neil1996}
+\citation{leveldb}
+\citation{rocksdb}
+\citation{scylladb}
+\citation{Chang2008}
+\citation{cassandra}
+\citation{hbase}
+\citation{mongodb}
+\citation{mysql}
+\citation{rocksdb}
+\citation{Tanenbaum:2014:MOS:2655363}
+\citation{Wu:2012:AWB:2093139.2093140}
+\citation{Hu:2009}
+\citation{cassandra}
+\citation{hbase}
+\citation{cassandraoffheap}
+\citation{hbasemslab}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{\thepage }{section.1}}
+\newlabel{sec:intro}{{1}{\thepage }{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}LSM Stores}{\thepage }{subsection.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}LSM Performance Bottlenecks}{\thepage }{subsection.1.2}}
+\citation{hbasetuning}
+\citation{universalcompaction}
+\citation{scylladbcompaction}
+\citation{Sears:2012}
+\citation{hbasemslab}
+\citation{cassandraoffheap}
+\citation{Wu2015}
+\citation{Chang2008}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Accordion}{\thepage }{subsection.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background}{\thepage }{section.2}}
+\newlabel{sec:background}{{2}{\thepage }{Background}{section.2}{}}
+\citation{hbasetuning}
+\citation{Chang2008}
+\citation{javaskiplist}
+\citation{Wu2015}
+\citation{Devineni:2015}
+\citation{hbasemslab}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {A log-structured merge (LSM) store consists of a small memory store ({\em  MemStore} in HBase) and a large disk store (collection of {\em  HFiles}). Put operations update the MemStore. The latter is double-buffered: a flush creates an immutable \emph  {snapshot} of the active buffer and a new active buffer. The snapshot is then written to disk in the background.}\relax }}{\thepage }{figure.caption.3}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:LSM}{{1}{\thepage }{\textbf {A log-structured merge (LSM) store consists of a small memory store ({\em MemStore} in HBase) and a large disk store (collection of {\em HFiles}). Put operations update the MemStore. The latter is double-buffered: a flush creates an immutable \emph {snapshot} of the active buffer and a new active buffer. The snapshot is then written to disk in the background.}\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Accordion}{\thepage }{section.3}}
+\newlabel{sec:accordion}{{3}{\thepage }{\sys }{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Overview}{\thepage }{subsection.3.1}}
+\newlabel{ssec:overview}{{3.1}{\thepage }{Overview}{subsection.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Accordion's compacting memory store architecture adds a pipeline of flat segments between the active segment and the snapshot. The memory store includes a small dynamic active segment and a pipeline of flat segments. A disk flush creates a snapshot of the pipeline for writing to disk.}\relax }}{\thepage }{figure.caption.4}}
+\newlabel{fig:accordion}{{2}{\thepage }{\textbf {\sys 's compacting memory store architecture adds a pipeline of flat segments between the active segment and the snapshot. The memory store includes a small dynamic active segment and a pipeline of flat segments. A disk flush creates a snapshot of the pipeline for writing to disk.}\relax }{figure.caption.4}{}}
+\newlabel{fig:flattening:active}{{3a}{\thepage }{}{figure.caption.5}{}}
+\newlabel{sub@fig:flattening:active}{{a}{\thepage }{}{figure.caption.5}{}}
+\newlabel{fig:flattening:flat}{{3b}{\thepage }{}{figure.caption.5}{}}
+\newlabel{sub@fig:flattening:flat}{{b}{\thepage }{}{figure.caption.5}{}}
+\newlabel{fig:flattening:merge}{{3c}{\thepage }{}{figure.caption.5}{}}
+\newlabel{sub@fig:flattening:merge}{{c}{\thepage }{}{figure.caption.5}{}}
+\newlabel{fig:flattening:compaction}{{3d}{\thepage }{}{figure.caption.5}{}}
+\newlabel{sub@fig:flattening:compaction}{{d}{\thepage }{}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {The active segment has a skiplist index. After a segment is added to the pipeline its index is flattened into an ordered array index. When the pipeline consists of $S$ segments, they are either merged or compacted. During a flattening or merge processes the data remains untouched. During a compaction indices are merged and redundancies in the data are eliminated. The key $K$ was updated twice on timestamp $ts=1$ and later on timestamp $ts=2$. Only in compacted segment the redundant version ($ts=1$) is eliminated.} \relax }}{\thepage }{figure.caption.5}}
+\newlabel{fig:flattening}{{3}{\thepage }{\textbf {The active segment has a skiplist index. After a segment is added to the pipeline its index is flattened into an ordered array index. When the pipeline consists of $S$ segments, they are either merged or compacted. During a flattening or merge processes the data remains untouched. During a compaction indices are merged and redundancies in the data are eliminated. The key $K$ was updated twice on timestamp $ts=1$ and later on timestamp $ts=2$. Only in compacted segment the redundant version ($ts=1$) is eliminated.} \relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Compaction Policies}{\thepage }{subsection.3.2}}
+\newlabel{ssec:policies}{{3.2}{\thepage }{Compaction Policies}{subsection.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Concurrency}{\thepage }{subsection.3.3}}
+\newlabel{ssec:impl-details}{{3.3}{\thepage }{Concurrency}{subsection.3.3}{}}
+\citation{alibabahbase}
+\citation{Wu2015}
+\citation{Cooper:2010:BCS:1807128.1807152}
+\citation{Gray:1994:QGB:191839.191886}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Off-Heap Allocation}{\thepage }{subsection.3.4}}
+\newlabel{ssec:offheap}{{3.4}{\thepage }{Off-Heap Allocation}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Performance Study}{\thepage }{section.4}}
+\newlabel{sec:eval}{{4}{\thepage }{Performance Study}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Methodology}{\thepage }{subsection.4.1}}
+\newlabel{ssec:setup}{{4.1}{\thepage }{Methodology}{subsection.4.1}{}}
+\newlabel{fig:on-heap:flat}{{4a}{\thepage }{}{figure.caption.6}{}}
+\newlabel{sub@fig:on-heap:flat}{{a}{\thepage }{}{figure.caption.6}{}}
+\newlabel{fig:on-heap:ser}{{4b}{\thepage }{}{figure.caption.6}{}}
+\newlabel{sub@fig:on-heap:ser}{{b}{\thepage }{}{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {The difference between the flat segment and the serialized segment. The ordered array of the cell objects cannot be directly serialized and streamed into an off-heap chunk. The transformation shrinks the cell object into just 20 bits, and writes on the index chunk.} \relax }}{\thepage }{figure.caption.6}}
+\newlabel{fig:on-heap}{{4}{\thepage }{\textbf {The difference between the flat segment and the serialized segment. The ordered array of the cell objects cannot be directly serialized and streamed into an off-heap chunk. The transformation shrinks the cell object into just 20 bits, and writes on the index chunk.} \relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Evaluation Results}{\thepage }{subsection.4.2}}
+\newlabel{ssec:results}{{4.2}{\thepage }{Evaluation Results}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Write-Only Workloads}{\thepage }{subsubsection.4.2.1}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \textbf  {Write throughput (operations per second) of the best Accordion\/ policy ({\em  Basic}\/) vs {\em  NoCompaction}, across multiple key distributions and disk hardware types. }\relax }}{\thepage }{table.caption.7}}
+\newlabel{tab:write-throughput}{{1}{\thepage }{\textbf {Write throughput (operations per second) of the best \sys \/ policy (\basic \/) vs \none , across multiple key distributions and disk hardware types. }\relax }{table.caption.7}{}}
+\newlabel{fig:write-throughput:zipf}{{5a}{\thepage }{}{figure.caption.8}{}}
+\newlabel{sub@fig:write-throughput:zipf}{{a}{\thepage }{}{figure.caption.8}{}}
+\newlabel{fig:write-throughput:uniform}{{5b}{\thepage }{}{figure.caption.8}{}}
+\newlabel{sub@fig:write-throughput:uniform}{{b}{\thepage }{}{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Write throughput speedup vs {\em  NoCompaction}\/ (HBase legacy MemStore) achieved by Accordion\/ with {\em  Basic}\/ and {\em  Adaptive}\/ policies. Measured on the Zipf and uniform key distributions, on SSD and HDD hardware. In SSD systems, {\em  Basic}\/ increases the write throughput by close to $48$\%. } \relax }}{\thepage }{figure.caption.8}}
+\newlabel{fig:write-throughput}{{5}{\thepage }{\textbf {Write throughput speedup vs \none \/ (HBase legacy MemStore) achieved by \sys \/ with \basic \/ and \adp \/ policies. Measured on the Zipf and uniform key distributions, on SSD and HDD hardware. In SSD systems, \basic \/ increases the write throughput by close to $48$\%. } \relax }{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Read-Write Workload}{\thepage }{subsubsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Scan-Write Workload}{\thepage }{subsubsection.4.2.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \textbf  {Number of flushes and compactions, measured for {\em  NoCompaction}\/ vs Accordion\/ policies, for the Zipf key distribution. }\relax }}{\thepage }{table.caption.9}}
+\newlabel{tab:counters}{{2}{\thepage }{\textbf {Number of flushes and compactions, measured for \none \/ vs \sys \/ policies, for the Zipf key distribution. }\relax }{table.caption.9}{}}
+\newlabel{fig:volume:ssd}{{6a}{\thepage }{}{figure.caption.10}{}}
+\newlabel{sub@fig:volume:ssd}{{a}{\thepage }{}{figure.caption.10}{}}
+\newlabel{fig:volume:hdd}{{6b}{\thepage }{}{figure.caption.10}{}}
+\newlabel{sub@fig:volume:hdd}{{b}{\thepage }{}{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \textbf  {Bytes written by flushes and compactions, measured for {\em  NoCompaction}\/ vs Accordion\/ policies, for the Zipf key distribution. The {\em  Adaptive}\/ policy provides double-digit savings for disk I/O. }\relax }}{\thepage }{figure.caption.10}}
+\newlabel{fig:volume}{{6}{\thepage }{\textbf {Bytes written by flushes and compactions, measured for \none \/ vs \sys \/ policies, for the Zipf key distribution. The \adp \/ policy provides double-digit savings for disk I/O. }\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \textbf  {Cumulative GC time vs write throughput, measured on SSD machines for multiple Accordion\/ policies and configurations, for the Zipf key distribution. Each data point depicts the throughput vs GC time of one experiment. Both axes are in log-log scale. The graph shows a clear negative correlation between the two metrics. }\relax }}{\thepage }{figure.caption.11}}
+\newlabel{fig:gc-throughput-log2}{{7}{\thepage }{\textbf {Cumulative GC time vs write throughput, measured on SSD machines for multiple \sys \/ policies and configurations, for the Zipf key distribution. Each data point depicts the throughput vs GC time of one experiment. Both axes are in log-log scale. The graph shows a clear negative correlation between the two metrics. }\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}Parameter Tuning}{\thepage }{subsubsection.4.2.4}}
+\newlabel{ssec:tuning}{{4.2.4}{\thepage }{Parameter Tuning}{subsubsection.4.2.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \textbf  {Throughput speedup when using flat (un-serialized) and serialized segments allocated on MSLAB, off-heap and on-heap. }\relax }}{\thepage }{figure.caption.12}}
+\newlabel{fig:write_only_off_heap}{{8}{\thepage }{\textbf {Throughput speedup when using flat (un-serialized) and serialized segments allocated on MSLAB, off-heap and on-heap. }\relax }{figure.caption.12}{}}
+\citation{Bentley79}
+\citation{Nyberg95}
+\citation{O'Neil1996}
+\citation{Muth1998}
+\citation{hbasetuning}
+\citation{rocksdb}
+\citation{scylladbcompaction}
+\citation{universalcompaction}
+\citation{Sears:2012}
+\citation{wisckey}
+\citation{clsm}
+\citation{rocksdb}
+\citation{rocksdbtuning}
+\citation{flodb}
+\citation{Wu2015}
+\newlabel{fig:latency:ssd}{{9a}{\thepage }{}{figure.caption.13}{}}
+\newlabel{sub@fig:latency:ssd}{{a}{\thepage }{}{figure.caption.13}{}}
+\newlabel{fig:latency:hdd}{{9b}{\thepage }{}{figure.caption.13}{}}
+\newlabel{sub@fig:latency:hdd}{{b}{\thepage }{}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces \textbf  {Read latency speedup (respectively, slowdown) of {\em  Basic}\/ and {\em  Adaptive}\/ versus {\em  NoCompaction}, under high write contention. Latencies are broken down by percentile. In HDD systems, {\em  Adaptive}\/ delivers up to $40$\% tail latency reduction. }\relax }}{\thepage }{figure.caption.13}}
+\newlabel{fig:latency}{{9}{\thepage }{\textbf {Read latency speedup (respectively, slowdown) of \basic \/ and \adp \/ versus \none , under high write contention. Latencies are broken down by percentile. In HDD systems, \adp \/ delivers up to $40$\% tail latency reduction. }\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces \textbf  {Latency speedup for scans of {\em  Basic}. }\relax }}{\thepage }{figure.caption.14}}
+\newlabel{fig:scans}{{10}{\thepage }{\textbf {Latency speedup for scans of \basic . }\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces \textbf  {Tuning of the active segment memory fraction, $A$, for the {\em  Basic}\/ policy, with $S=2$, Zipf distribution on SSD. Five experiments are conducted for each $A$. The write throughput is higher for small values of $A$. }\relax }}{\thepage }{figure.caption.15}}
+\newlabel{fig:dynamic-fraction}{{11}{\thepage }{\textbf {Tuning of the active segment memory fraction, $A$, for the \basic \/ policy, with $S=2$, Zipf distribution on SSD. Five experiments are conducted for each $A$. The write throughput is higher for small values of $A$. }\relax }{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Related Work}{\thepage }{section.5}}
+\newlabel{sec:related}{{5}{\thepage }{Related Work}{section.5}{}}
+\citation{Wu2015}
+\newlabel{fig:pipeline:ssd}{{12a}{\thepage }{}{figure.caption.16}{}}
+\newlabel{sub@fig:pipeline:ssd}{{a}{\thepage }{}{figure.caption.16}{}}
+\newlabel{fig:pipeline:hdd}{{12b}{\thepage }{}{figure.caption.16}{}}
+\newlabel{sub@fig:pipeline:hdd}{{b}{\thepage }{}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \textbf  {Tuning the pipeline size bound, $S$, for the {\em  Basic}\/ policy. Five experiments are conducted for each $S$.} \relax }}{\thepage }{figure.caption.16}}
+\newlabel{fig:pipeline}{{12}{\thepage }{\textbf {Tuning the pipeline size bound, $S$, for the \basic \/ policy. Five experiments are conducted for each $S$.} \relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces \textbf  {Throughput (op/sec): {\em  Eager}\/ versus {\em  Basic}\/ in different settings. }\relax }}{\thepage }{figure.caption.17}}
+\newlabel{fig:eager-throughput}{{13}{\thepage }{\textbf {Throughput (op/sec): \eager \/ versus \basic \/ in different settings. }\relax }{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Discussion}{\thepage }{section.6}}
+\newlabel{sec:conclusions}{{6}{\thepage }{Discussion}{section.6}{}}
+\bibstyle{abbrv}
+\bibdata{refs}
+\bibcite{hbase}{1}
+\bibcite{airbnb}{2}
+\bibcite{hbasemslab}{3}
+\bibcite{cassandra}{4}
+\bibcite{dragon}{5}
+\bibcite{hbasetuning}{6}
+\bibcite{flurry}{7}
+\bibcite{javaskiplist}{8}
+\bibcite{leveldb}{9}
+\bibcite{mongodb}{10}
+\bibcite{mysql}{11}
+\bibcite{cassandraoffheap}{12}
+\bibcite{alibabahbase}{13}
+\bibcite{rocksdb}{14}
+\bibcite{rocksdbtuning}{15}
+\bibcite{scylladb}{16}
+\bibcite{scylladbcompaction}{17}
+\bibcite{universalcompaction}{18}
+\bibcite{zen}{19}
+\bibcite{flodb}{20}
+\bibcite{Bentley79}{21}
+\bibcite{Chang2008}{22}
+\bibcite{Cooper:2010:BCS:1807128.1807152}{23}
+\bibcite{Devineni:2015}{24}
+\bibcite{clsm}{25}
+\bibcite{Gray:1994:QGB:191839.191886}{26}
+\bibcite{Hu:2009}{27}
+\bibcite{wisckey}{28}
+\bibcite{Muth1998}{29}
+\bibcite{Nyberg95}{30}
+\bibcite{O'Neil1996}{31}
+\bibcite{Sears:2012}{32}
+\bibcite{Tanenbaum:2014:MOS:2655363}{33}
+\bibcite{Wu:2012:AWB:2093139.2093140}{34}
+\@writefile{toc}{\contentsline {section}{\numberline {7}References}{\thepage }{section.7}}
+\bibcite{Wu2015}{35}

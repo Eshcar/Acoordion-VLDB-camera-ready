@@ -1,0 +1,871 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.9)  31 JUL 2018 18:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**p1066-Hillel.tex
+(./p1066-Hillel.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(./vldb.cls (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count79
+\Gm@cntv=\count80
+\c@Gm@tempcnt=\count81
+\Gm@bindingoffset=\dimen102
+\Gm@wd@mp=\dimen103
+\Gm@odd@mp=\dimen104
+\Gm@even@mp=\dimen105
+\Gm@layoutwidth=\dimen106
+\Gm@layoutheight=\dimen107
+\Gm@layouthoffset=\dimen108
+\Gm@layoutvoffset=\dimen109
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count82
+))
+\Gin@req@height=\dimen110
+\Gin@req@width=\dimen111
+)
+\epsfxsize=\dimen112
+\epsfysize=\dimen113
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen114
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen115
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count83
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count84
+\leftroot@=\count85
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count86
+\DOTSCASE@=\count87
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen116
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count88
+\c@MaxMatrixCols=\count89
+\dotsspace@=\muskip10
+\c@parentequation=\count90
+\dspbrk@lvl=\count91
+\tag@help=\toks18
+\row@=\count92
+\column@=\count93
+\maxfields@=\count94
+\andhelp@=\toks19
+\eqnshift@=\dimen117
+\alignsep@=\dimen118
+\tagshift@=\dimen119
+\tagwidth@=\dimen120
+\totwidth@=\dimen121
+\lineht@=\dimen122
+\@envbody=\toks20
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+Document Class 'vldb' - based on 'sig-alternate' <26th. July '05>. Modified by 
+G.K.M. Tobin/Gerry Murray
+Based in part upon document Style `acmconf' <22 May 89>. Hacked 4/91 by
+shivers@cs.cmu.edu, 4/93 by theobald@cs.mcgill.ca
+Excerpts were taken from (Journal Style) 'esub2acm.cls'.
+****** Bugs/comments/suggestions/technicalities to Gerry Murray -- murray@hq.ac
+m.org ******
+Questions on the style, SIGS policies, etc. to Adrienne Griscti griscti@acm.org
+
+\footheight=\dimen123
+\@maxsep=\dimen124
+\@dblmaxsep=\dimen125
+\aucount=\count95
+\originalaucount=\count96
+\auwidth=\dimen126
+\auskip=\dimen127
+\auskipcount=\count97
+\auskip=\dimen128
+\allauboxes=\dimen129
+\addauthors=\toks22
+\addauflag=\count98
+\subtitletext=\toks23
+\savesection=\count99
+\sectioncntr=\count100
+\c@figure=\count101
+\c@table=\count102
+\titleboxnotes=\toks24
+\titleboxnoteflag=\count103
+Document Class: vldb 2010/10/19 - V1.8b - based on sig-alternate V1.8 - based o
+n acmproc.cls V1.3 <Nov. 30 '99>
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+\@acmtitlebox=\box28
+\titlenotecount=\count104
+\tntoks=\toks25
+\tntokstwo=\toks26
+\tntoksthree=\toks27
+\tntoksfour=\toks28
+\tntoksfive=\toks29
+\catcount=\count105
+\copyrightnotice=\toks30
+\conf=\toks31
+\confinfo=\toks32
+\c@part=\count106
+\c@section=\count107
+\c@subsection=\count108
+\c@subsubsection=\count109
+\c@paragraph=\count110
+
+Using 'Abbrev' bibliography style
+\bibindent=\dimen130
+\colcntr=\count111
+\savebox=\box29
+\copyrtyr=\toks33
+\acmcopyr=\toks34
+\boilerplate=\toks35
+\copyrightetc=\toks36
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/endnotes/endnotes.sty
+\c@endnote=\count112
+\endnotesep=\dimen131
+\@enotes=\write3
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count113
+\float@exts=\toks37
+\float@box=\box30
+\@float@everytoks=\toks38
+\@floatcapt=\box31
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks39
+\c@algorithm=\count114
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count115
+\c@ALG@rem=\count116
+\c@ALG@nested=\count117
+\ALG@tlm=\skip44
+\ALG@thistlm=\skip45
+\c@ALG@Lnr=\count118
+\c@ALG@blocknr=\count119
+\c@ALG@storecount=\count120
+\c@ALG@tmpcounter=\count121
+\ALG@tmplength=\skip46
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen132
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count124
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count125
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen133
+\Fld@menulength=\count126
+\Field@Width=\dimen134
+\Fld@charsize=\dimen135
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+
+
+Package hyperref Warning: Option `pdfpagelabels' is turned off
+(hyperref)                because \thepage is undefined.
+
+\c@Item=\count127
+\c@Hfootnote=\count128
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count129
+\c@bookmark@seq@number=\count130
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip47
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen136
+\captionmargin@=\dimen137
+\captionwidth=\dimen138
+\caption@tempdima=\dimen139
+\caption@indent=\dimen140
+\caption@parindent=\dimen141
+\caption@hangindent=\dimen142
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \vskip 10pt \setbox \@
+tempboxa \hbox {\textbf {#1: #2}} \ifdim \wd \@tempboxa >\hsize \textbf {#1: #2
+}\par \else \hbox to\hsize {\hfil \box \@tempboxa \hfil } \fi .
+\c@ContinuedFloat=\count131
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count132
+\c@subtable=\count133
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/preprint/balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen143
+)
+(./p1066-Hillel.aux)
+\openout1 = `p1066-Hillel.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=504.0pt
+* \textheight=666.0pt
+* \oddsidemargin=-18.26999pt
+* \evensidemargin=-18.26999pt
+* \topmargin=-55.26999pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=11.0pt
+* \columnsep=24.0pt
+* \skip\footins=8.1pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count134
+\scratchdimen=\dimen144
+\scratchbox=\box32
+\nofMPsegments=\count135
+\nofMParguments=\count136
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count137
+\MPscratchDim=\dimen145
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
+\everyMPtoPDFconversion=\toks41
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring ON on input line 71.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count140
+)
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
+
+(./p1066-Hillel.out) (./p1066-Hillel.out)
+\@outlinefile=\write4
+\openout4 = `p1066-Hillel.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 103.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 103.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 103.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+Underfull \hbox (badness 2245) in paragraph at lines 103--103
+[]\crnotice This work is li-censed un-der the Cre-ative Com-mons Attribution-
+ []
+
+(./intro.tex
+Underfull \vbox (badness 2521) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Overfull \hbox (5.82689pt too wide) in paragraph at lines 104--106
+[]\OT1/cmr/m/it/9 Fewer com-pactions. \OT1/cmr/m/n/9 The re-duced foot-print of
+ im-mutable
+ []
+
+
+Overfull \hbox (2.89638pt too wide) in paragraph at lines 116--117
+\OT1/cmr/m/n/9 mutable in-dices im-proves lo-cal-ity of ref-er-ence and hence
+ []
+
+) (./background.texpdfTeX warning (ext4): destination with the same identifier 
+(name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 
+      [2] <LSM.png, id=169, 559.08875pt x 357.335pt>
+File: LSM.png Graphic file (type png)
+ <use LSM.png>
+Package pdftex.def Info: LSM.png used on input line 24.
+(pdftex.def)             Requested size: 215.99854pt x 138.05148pt.
+
+Overfull \hbox (5.35124pt too wide) in paragraph at lines 32--38
+\OT1/cmr/bx/n/9 Data man-age-ment  \OT1/cmr/m/n/9 KV-stores achieve scal-a-bil-
+ity by shard-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 
+       [3 <./LSM.png>]) (./accordion.tex
+<accordion-arch.png, id=191, 722.7pt x 542.025pt>
+File: accordion-arch.png Graphic file (type png)
+ <use accordion-arch.png>
+Package pdftex.def Info: accordion-arch.png used on input line 28.
+(pdftex.def)             Requested size: 240.0pt x 180.00188pt.
+
+<active-seg.pdf, id=195, 367.19266pt x 294.03822pt>
+File: active-seg.pdf Graphic file (type pdf)
+ <use active-seg.pdf>
+Package pdftex.def Info: active-seg.pdf used on input line 55.
+(pdftex.def)             Requested size: 111.00037pt x 88.88513pt.
+
+<flat-seg.pdf, id=196, 365.19034pt x 296.00105pt>
+File: flat-seg.pdf Graphic file (type pdf)
+ <use flat-seg.pdf>
+Package pdftex.def Info: flat-seg.pdf used on input line 60.
+(pdftex.def)             Requested size: 111.00037pt x 89.96628pt.
+
+<merged-seg.pdf, id=197, 363.93427pt x 294.84344pt>
+File: merged-seg.pdf Graphic file (type pdf)
+ <use merged-seg.pdf>
+Package pdftex.def Info: merged-seg.pdf used on input line 65.
+(pdftex.def)             Requested size: 111.00037pt x 89.92487pt.
+
+<compacted-seg.pdf, id=198, 366.19699pt x 297.20677pt>
+File: compacted-seg.pdf Graphic file (type pdf)
+ <use compacted-seg.pdf>
+Package pdftex.def Info: compacted-seg.pdf used on input line 70.
+(pdftex.def)             Requested size: 111.00037pt x 90.08784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 \subsection{Compaction Policies}
+                                       \label{ssec:policies} [4 <./accordion-ar
+ch.png>]pdfTeX warning (ext4): destination with the same identifier (name{page.
+}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.171 
+       [5 <./active-seg.pdf> <./flat-seg.pdf> <./merged-seg.pdf> <./compacted-s
+eg.pdf>] <flat-serializing.pdf, id=306, 405.32358pt x 293.91566pt>
+File: flat-serializing.pdf Graphic file (type pdf)
+
+<use flat-serializing.pdf>
+Package pdftex.def Info: flat-serializing.pdf used on input line 209.
+(pdftex.def)             Requested size: 144.29912pt x 104.63902pt.
+
+<serialized-serializing.pdf, id=307, 406.6899pt x 301.93965pt>
+File: serialized-serializing.pdf Graphic file (type pdf)
+
+<use serialized-serializing.pdf>
+Package pdftex.def Info: serialized-serializing.pdf used on input line 214.
+(pdftex.def)             Requested size: 144.29912pt x 107.13173pt.
+) (./eval.tex
+Underfull \vbox (badness 5260) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 
+      [6]
+Overfull \hbox (8.18015pt too wide) in paragraph at lines 65--73
+\OT1/cmr/bx/n/9 Measurements  \OT1/cmr/m/n/9 Our ex-per-i-ments mea-sure HBase'
+s through-
+ []
+
+
+Overfull \hbox (7.38393pt too wide) in paragraph at lines 98--106
+\OT1/cmr/bx/n/9 Write through-put  \OT1/cmr/m/n/9 Fig-ure [][]5[][] de-picts th
+e per-for-mance speed-
+ []
+
+<Figs/throughput-zipfian.png, id=324, 833.514pt x 332.442pt>
+File: Figs/throughput-zipfian.png Graphic file (type png)
+
+<use Figs/throughput-zipfian.png>
+Package pdftex.def Info: Figs/throughput-zipfian.png used on input line 126.
+(pdftex.def)             Requested size: 244.20215pt x 97.39487pt.
+
+<Figs/throughput-uniform.png, id=325, 613.3314pt x 332.442pt>
+File: Figs/throughput-uniform.png Graphic file (type png)
+
+<use Figs/throughput-uniform.png>
+Package pdftex.def Info: Figs/throughput-uniform.png used on input line 131.
+(pdftex.def)             Requested size: 177.60126pt x 96.26367pt.
+
+<Figs/volume-ssd.png, id=326, 775.2162pt x 320.8788pt>
+File: Figs/volume-ssd.png Graphic file (type png)
+
+<use Figs/volume-ssd.png>
+Package pdftex.def Info: Figs/volume-ssd.png used on input line 168.
+(pdftex.def)             Requested size: 222.00073pt x 91.89206pt.
+
+<Figs/volume-hdd.png, id=327, 724.1454pt x 315.0972pt>
+File: Figs/volume-hdd.png Graphic file (type png)
+
+<use Figs/volume-hdd.png>
+Package pdftex.def Info: Figs/volume-hdd.png used on input line 173.
+(pdftex.def)             Requested size: 222.00073pt x 96.59732pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.218 
+       [7 <./flat-serializing.pdf> <./serialized-serializing.pdf>]
+<Figs/gc-throughput-log2.png, id=386, 619.5948pt x 383.031pt>
+File: Figs/gc-throughput-log2.png Graphic file (type png)
+
+<use Figs/gc-throughput-log2.png>
+Package pdftex.def Info: Figs/gc-throughput-log2.png used on input line 234.
+(pdftex.def)             Requested size: 222.00073pt x 137.2423pt.
+
+Overfull \hbox (4.13098pt too wide) in paragraph at lines 243--251
+\OT1/cmr/m/n/9 with the write-only work-load us-ing se-ri-al-ized seg-ments, wh
+ose
+ []
+
+<Figs/write-only-off-heap.pdf, id=389, 832.10875pt x 353.32pt>
+File: Figs/write-only-off-heap.pdf Graphic file (type pdf)
+
+<use Figs/write-only-off-heap.pdf>
+Package pdftex.def Info: Figs/write-only-off-heap.pdf used on input line 253.
+(pdftex.def)             Requested size: 222.00073pt x 94.26012pt.
+
+Underfull \hbox (badness 1142) in paragraph at lines 255--255
+\OT1/cmr/bx/n/9 serialized) and se-ri-al-ized seg-ments al-lo-cated on
+ []
+
+
+Underfull \vbox (badness 1472) has occurred while \output is active []
+
+
+<Figs/latency-ssd.png, id=391, 539.1342pt x 336.2964pt>
+File: Figs/latency-ssd.png Graphic file (type png)
+
+<use Figs/latency-ssd.png>
+Package pdftex.def Info: Figs/latency-ssd.png used on input line 273.
+(pdftex.def)             Requested size: 199.7993pt x 124.62784pt.
+
+<Figs/latency-hdd.png, id=392, 660.5478pt x 335.8146pt>
+File: Figs/latency-hdd.png Graphic file (type png)
+
+<use Figs/latency-hdd.png>
+Package pdftex.def Info: Figs/latency-hdd.png used on input line 278.
+(pdftex.def)             Requested size: 244.20215pt x 124.1521pt.
+ <Figs/scans.pdf, id=394, 832.10875pt x 353.32pt>
+File: Figs/scans.pdf Graphic file (type pdf)
+
+<use Figs/scans.pdf>
+Package pdftex.def Info: Figs/scans.pdf used on input line 308.
+(pdftex.def)             Requested size: 222.00073pt x 94.26012pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.316 \subsubsection{Parameter Tuning}
+                                       \label{ssec:tuning} [8 <./Figs/throughpu
+t-zipfian.png> <./Figs/throughput-uniform.png>]
+<Figs/dynamic-fraction-1.png, id=405, 738.1176pt x 393.1488pt>
+File: Figs/dynamic-fraction-1.png Graphic file (type png)
+
+<use Figs/dynamic-fraction-1.png>
+Package pdftex.def Info: Figs/dynamic-fraction-1.png used on input line 328.
+(pdftex.def)             Requested size: 222.00073pt x 118.2455pt.
+
+<Figs/pipeline-1-ssd.png, id=408, 738.1176pt x 393.6306pt>
+File: Figs/pipeline-1-ssd.png Graphic file (type png)
+
+<use Figs/pipeline-1-ssd.png>
+Package pdftex.def Info: Figs/pipeline-1-ssd.png used on input line 352.
+(pdftex.def)             Requested size: 222.00073pt x 118.3904pt.
+
+<Figs/pipeline-1-hdd.png, id=409, 738.1176pt x 393.1488pt>
+File: Figs/pipeline-1-hdd.png Graphic file (type png)
+
+<use Figs/pipeline-1-hdd.png>
+Package pdftex.def Info: Figs/pipeline-1-hdd.png used on input line 357.
+(pdftex.def)             Requested size: 222.00073pt x 118.2455pt.
+
+Underfull \vbox (badness 4168) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.372 
+       [9 <./Figs/volume-ssd.png> <./Figs/volume-hdd.png> <./Figs/gc-throughput
+-log2.png> <./Figs/write-only-off-heap.pdf>]
+<Figs/eager-throughput.png, id=486, 575.2692pt x 326.6604pt>
+File: Figs/eager-throughput.png Graphic file (type png)
+
+<use Figs/eager-throughput.png>
+Package pdftex.def Info: Figs/eager-throughput.png used on input line 374.
+(pdftex.def)             Requested size: 222.00073pt x 126.05623pt.
+) (./related.tex
+Overfull \hbox (4.43431pt too wide) in paragraph at lines 1--11
+[]\OT1/cmr/m/n/9 The ba-sis for LSM data struc-tures is the \OT1/cmr/m/it/9 log
+-a-rith-mic method
+ []
+
+
+Overfull \hbox (3.80748pt too wide) in paragraph at lines 12--15
+[]\OT1/cmr/m/n/9 These meth-ods in-spired the orig-i-nal work on \OT1/cmr/m/it/
+9 LSM-trees \OT1/cmr/m/n/9 [[][]31[][]]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 
+      [10 <./Figs/latency-ssd.png> <./Figs/latency-hdd.png> <./Figs/scans.pdf> 
+<./Figs/dynamic-fraction-1.png>]) (./discussion.tex
+Overfull \hbox (1.09113pt too wide) in paragraph at lines 2--8
+\OT1/cmr/m/n/9 man-age-ment and ac-cess. We in-te-grated Ac-cor-dion in Apache
+ []
+
+)
+Overfull \hbox (1.61403pt too wide) in paragraph at lines 37--153
+\OT1/cmr/m/n/9 mance vs disk-wear trade-off. When run-ning with-out MSLAB
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.153 
+       [11 <./Figs/pipeline-1-ssd.png> <./Figs/pipeline-1-hdd.png> <./Figs/eage
+r-throughput.png>] (./p1066-Hillel.bbl
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.168 
+       [12])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.165 \end{document}
+                     [13
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+ (./p1066-Hillel.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package rerunfilecheck Info: File `p1066-Hillel.out' has not changed.
+(rerunfilecheck)             Checksum: E444A126040769EAF2BB655500E7FC63;1219.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+ ) 
+Here is how much of TeX's memory you used:
+ 8625 strings out of 492995
+ 129226 string characters out of 6132704
+ 241040 words of memory out of 5000000
+ 11930 multiletter control sequences out of 15000+600000
+ 28204 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,11n,40p,889b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
+s/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on p1066-Hillel.pdf (13 pages, 1469118 bytes).
+PDF statistics:
+ 734 PDF objects out of 1000 (max. 8388607)
+ 567 compressed objects within 6 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
+

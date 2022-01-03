@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: accordion-main.aux
+The style file: acm.bst
+Database file #1: refs.bib
+Warning--to sort, need author or key in airbnb
+Warning--to sort, need author or key in flurry
+Warning--to sort, need author or key in alibabahbase
+Warning--to sort, need author or key in dragon
+Warning--to sort, need author or key in zen
+Warning--to sort, need author or key in leveldb
+Warning--to sort, need author or key in rocksdb
+Warning--to sort, need author or key in scylladb
+Warning--to sort, need author or key in cassandra
+Warning--to sort, need author or key in hbase
+Warning--to sort, need author or key in mongodb
+Warning--to sort, need author or key in mysql
+Warning--to sort, need author or key in cassandraoffheap
+Warning--to sort, need author or key in hbasemslab
+Warning--to sort, need author or key in hbasetuning
+Warning--to sort, need author or key in universalcompaction
+Warning--to sort, need author or key in scylladbcompaction
+Warning--to sort, need author or key in javaskiplist
+Warning--to sort, need author or key in rocksdbtuning
+You've used 35 entries,
+            2253 wiz_defined-function locations,
+            702 strings with 8965 characters,
+and the built_in function-call counts, 10441 in all, are:
+= -- 1012
+> -- 386
+< -- 0
++ -- 171
+- -- 134
+* -- 715
+:= -- 1447
+add.period$ -- 84
+call.type$ -- 35
+change.case$ -- 172
+chr.to.int$ -- 0
+cite$ -- 54
+duplicate$ -- 416
+empty$ -- 1005
+format.name$ -- 134
+if$ -- 2342
+int.to.chr$ -- 0
+int.to.str$ -- 35
+missing$ -- 17
+newline$ -- 157
+num.names$ -- 32
+pop$ -- 269
+preamble$ -- 1
+purify$ -- 137
+quote$ -- 0
+skip$ -- 362
+stack$ -- 0
+substring$ -- 627
+swap$ -- 123
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 138
+warning$ -- 19
+while$ -- 71
+width$ -- 37
+write$ -- 309
+(There were 19 warnings)

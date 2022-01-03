@@ -1,0 +1,177 @@
+\begin{thebibliography}{10}
+
+\bibitem{hbase}
+{Apache HBase}.
+\newblock \url{http://hbase.apache.org}.
+
+\bibitem{airbnb}
+Apache hbase at airbnb.
+\newblock \url{https://www.slideshare.net/HBaseCon/apache-hbase-at-airbnb}.
+
+\bibitem{hbasemslab}
+Avoiding full gcs with memstore-local allocation buffers.
+\newblock \url{http://blog.cloudera.com/blog/2011/02/}.
+
+\bibitem{cassandra}
+Cassandra.
+\newblock \url{http://cassandra.apache.org}.
+
+\bibitem{dragon}
+Dragon: A distributed graph query engine.
+\newblock \url{https://code.facebook.com/posts/1737605303120405}.
+
+\bibitem{hbasetuning}
+Hbase compaction tuning tips.
+\newblock
+  \url{https://community.hortonworks.com/articles/52616/hbase-compaction-tuning-tips.html}.
+
+\bibitem{flurry}
+Hbase operations in a flurry.
+\newblock \url{http://bit.ly/2yaTfoP}.
+
+\bibitem{javaskiplist}
+Java concurrent skiplist map.
+\newblock
+  \url{https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/ConcurrentSkipListSet.html}.
+
+\bibitem{leveldb}
+{LevelDB}.
+\newblock \url{https://github.com/google/leveldb}.
+
+\bibitem{mongodb}
+Mongodb.
+\newblock \url{https://mongorocks.org}.
+
+\bibitem{mysql}
+Mysql.
+\newblock \url{http://myrocks.io}.
+
+\bibitem{cassandraoffheap}
+Off-heap memtables in cassandra 2.1.
+\newblock
+  \url{https://www.datastax.com/dev/blog/off-heap-memtables-in-cassandra-2-1}.
+
+\bibitem{alibabahbase}
+Offheap read-path in production – the alibaba story.
+\newblock \url{https://blog.cloudera.com/blog/2017/03/}.
+
+\bibitem{rocksdb}
+{RocksDB}.
+\newblock \url{http://rocksdb.org/}.
+
+\bibitem{rocksdbtuning}
+Rocksdb tuning guide.
+
+\bibitem{scylladb}
+Scylladb.
+\newblock \url{https://github.com/scylladb/scylla}.
+
+\bibitem{scylladbcompaction}
+Sstable compaction and compaction strategies.
+\newblock \url{http://bit.ly/2wXc7ah}.
+
+\bibitem{universalcompaction}
+Universal compaction.
+
+\bibitem{zen}
+Zen: Pinterest's graph storage service.
+\newblock \url{http://bit.ly/2ft4YDx}.
+
+\bibitem{flodb}
+{\sc Balmau, O., Guerraoui, R., Trigonakis, V., and Zablotchi, I.}
+\newblock Flodb: Unlocking memory in persistent key-value stores.
+\newblock In {\em Proceedings of the Twelfth European Conference on Computer
+  Systems\/} (New York, NY, USA, 2017), EuroSys '17, ACM, pp.~80--94.
+
+\bibitem{Bentley79}
+{\sc Bentley, J.~L., and Saxe, J.~B.}
+\newblock Decomposable searching problems i. static-to-dynamic transformation.
+\newblock {\em Journal of Algorithms 1}, 4 (1980), 301--358.
+
+\bibitem{Chang2008}
+{\sc Chang, F., Dean, J., Ghemawat, S., Hsieh, W.~C., Wallach, D.~A., Burrows,
+  M., Chandra, T., Fikes, A., and Gruber, R.~E.}
+\newblock Bigtable: A distributed storage system for structured data.
+\newblock {\em ACM Trans. Comput. Syst. 26}, 2 (June 2008), 4:1--4:26.
+
+\bibitem{Cooper:2010:BCS:1807128.1807152}
+{\sc Cooper, B.~F., Silberstein, A., Tam, E., Ramakrishnan, R., and Sears, R.}
+\newblock Benchmarking cloud serving systems with ycsb.
+\newblock In {\em Proceedings of the 1st ACM Symposium on Cloud Computing\/}
+  (New York, NY, USA, 2010), SoCC '10, ACM, pp.~143--154.
+
+\bibitem{Devineni:2015}
+{\sc Devineni, P., Koutra, D., Faloutsos, M., and Faloutsos, C.}
+\newblock If walls could talk: Patterns and anomalies in facebook wallposts.
+\newblock In {\em Proceedings of the 2015 IEEE/ACM International Conference on
+  Advances in Social Networks Analysis and Mining 2015\/} (New York, NY, USA,
+  2015), ASONAM '15, ACM, pp.~367--374.
+
+\bibitem{clsm}
+{\sc Golan-Gueta, G., Bortnikov, E., Hillel, E., and Keidar, I.}
+\newblock Scaling concurrent log-structured data stores.
+\newblock In {\em Proceedings of the Tenth European Conference on Computer
+  Systems\/} (New York, NY, USA, 2015), EuroSys '15, ACM, pp.~32:1--32:14.
+
+\bibitem{Gray:1994:QGB:191839.191886}
+{\sc Gray, J., Sundaresan, P., Englert, S., Baclawski, K., and Weinberger,
+  P.~J.}
+\newblock Quickly generating billion-record synthetic databases.
+\newblock In {\em Proceedings of the 1994 ACM SIGMOD International Conference
+  on Management of Data\/} (New York, NY, USA, 1994), SIGMOD '94, ACM,
+  pp.~243--252.
+
+\bibitem{Hu:2009}
+{\sc Hu, X.-Y., Eleftheriou, E., Haas, R., Iliadis, I., and Pletka, R.}
+\newblock Write amplification analysis in flash-based solid state drives.
+\newblock In {\em Proceedings of SYSTOR 2009: The Israeli Experimental Systems
+  Conference\/} (New York, NY, USA, 2009), SYSTOR '09, ACM, pp.~10:1--10:9.
+
+\bibitem{wisckey}
+{\sc Lu, L., Pillai, T.~S., Gopalakrishnan, H., Arpaci{-}Dusseau, A.~C., and
+  Arpaci{-}Dusseau, R.~H.}
+\newblock Wisckey: Separating keys from values in ssd-conscious storage.
+\newblock {\em {TOS} 13}, 1 (2017), 5:1--5:28.
+
+\bibitem{Muth1998}
+{\sc Muth, P., O'Neil, P.~E., Pick, A., and Weikum, G.}
+\newblock Design, implementation, and performance of the lham log-structured
+  history data access method.
+\newblock In {\em Proceedings of the 24rd International Conference on Very
+  Large Data Bases\/} (1998), VLDB '98, pp.~452--463.
+
+\bibitem{Nyberg95}
+{\sc Nyberg, C., Barclay, T., Cvetanovic, Z., Gray, J., and Lomet, D.}
+\newblock {AlphaSort}: A cache-sensitive parallel external sort.
+\newblock {\em The VLDB Journal 4}, 4 (Oct. 1995), 603--628.
+
+\bibitem{O'Neil1996}
+{\sc O'Neil, P., Cheng, E., Gawlick, D., and O'Neil, E.}
+\newblock The log-structured merge-tree ({LSM}-tree).
+\newblock {\em Acta Inf. 33}, 4 (June 1996), 351--385.
+
+\bibitem{Sears:2012}
+{\sc Sears, R., and Ramakrishnan, R.}
+\newblock blsm: A general purpose log structured merge tree.
+\newblock In {\em Proceedings of the 2012 ACM SIGMOD International Conference
+  on Management of Data\/} (New York, NY, USA, 2012), SIGMOD '12, ACM,
+  pp.~217--228.
+
+\bibitem{Tanenbaum:2014:MOS:2655363}
+{\sc Tanenbaum, A.~S., and Bos, H.}
+\newblock {\em Modern Operating Systems}, 4th~ed.
+\newblock Prentice Hall Press, Upper Saddle River, NJ, USA, 2014.
+
+\bibitem{Wu:2012:AWB:2093139.2093140}
+{\sc Wu, G., He, X., and Eckart, B.}
+\newblock An adaptive write buffer management scheme for flash-based ssds.
+\newblock {\em Trans. Storage 8}, 1 (Feb. 2012), 1:1--1:24.
+
+\bibitem{Wu2015}
+{\sc Wu, X., Xu, Y., Shao, Z., and Jiang, S.}
+\newblock Lsm-trie: An lsm-tree-based ultra-large key-value store for small
+  data items.
+\newblock In {\em 2015 {USENIX} Annual Technical Conference ({USENIX} {ATC}
+  15)\/} (Santa Clara, CA, 2015), {USENIX} Association, pp.~71--82.
+
+\end{thebibliography}
